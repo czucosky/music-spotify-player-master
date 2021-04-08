@@ -1,0 +1,31 @@
+:root {
+  --main-color: #FF1B4C;
+  --light-color: #FAE4E8;
+  --dark-color: #1A1625;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Crimson Text', serif;
+  background-color: #1A1625;
+  color: var(--light-color);
+}
+/* TYPOGRAPHY */
+
+
+
+h2, h3 {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: normal;
+  font-size: 35px;
+  color: var(--main-color);
+}
+h3 { font-size: 25px;}
+
+h4 {
+  font-size: 25px;
+  color: var(--light-color);
+  font-weight: normal;
+}
