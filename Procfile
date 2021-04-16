@@ -1,3 +1,1 @@
-web: npm run build
-web: npm install -g serve
-web: serve -s build
+web: npm run build; npm install -g serve; serve -s build
