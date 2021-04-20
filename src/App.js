@@ -31,7 +31,7 @@ class App extends Component {
     */
 
 
-    let accessToken = '    let accessToken = 'BQBEVRSjHOX2FRTJGo4pRxOPF9_f-XM2yTrQMiGHYBdNKAT2TSBXU58gmptDBkkeEq2mupQFnCj-dos3CQI44XnFGhX_agLtMWuE3w3_9AyLTJu07ayG9oCcUKHVKLCvFCuDm4xjI56-PubgvYbt1BzT8GQIkdTg9MdeYIxLZGEk8eqaeOEbOQ';
+    let accessToken = '    let accessToken = 'BQDRcwitmDIvypX5gjnavwqRw_4q1GHrI3kCrWWzcJwW4VfJ-c1p8-mveWXfABaVTp9Dqh9-OMS5NIHdiZ6kDpZQqeEvYrIc3BBfPqT7tyHm8xtxB4SGGFQIQFwEJ0uoA8ixXydMypVwxpyTczdAgXPVlPChLYw84jTVXUiNgcKUyzavrds0sg';
 ';
   
 
