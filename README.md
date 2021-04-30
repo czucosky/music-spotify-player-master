@@ -8,6 +8,10 @@ Run the program by "cd web-api-auth-examples-master" -> "cd authorization_code" 
 
 It will run off on https://localhost:8888 . There go to the page url and copy the string following accessToken and paste it in src/img/App.js under accessToken = "".
 
+(Currently working on a way to intergrate these two together into one function)
+
+Navigate back to the main project folder.
+
 After this you can either run. 
 
 !To Run in Dev Mode (Note: In dev mode there are know errors with entering in a blank character and a mishmash of characters into the search bar. To avoid this run the program in build mode)
