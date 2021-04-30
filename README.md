@@ -12,12 +12,12 @@ After this you can either run.
 
 !To Run in Dev Mode (Note: In dev mode there are know errors with entering in a blank character and a mishmash of characters into the search bar. To avoid this run the program in build mode)
 ''npm install
-  npm start
+  - npm start
 
 !To run in build mode
 ''npm run build
-  npm instal -g serve
-  serve -s build
+  - npm instal -g serve
+  - serve -s build
 
 
   This app is currently deployed to github and heroku
