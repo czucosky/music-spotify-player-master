@@ -11,11 +11,11 @@ It will run off on https://localhost:8888 . There go to the page url and copy th
 After this you can either run. 
 
 !To Run in Dev Mode (Note: In dev mode there are know errors with entering in a blank character and a mishmash of characters into the search bar. To avoid this run the program in build mode)
-''- npm install
+  - npm install
   - npm start
 
 !To run in build mode
-''- npm run build
+  - npm run build
   - npm instal -g serve
   - serve -s build
 
