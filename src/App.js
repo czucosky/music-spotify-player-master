@@ -4,10 +4,10 @@ import './App.css';
 import Profile from './Profile';
 import Gallery from './Gallery';
 
-function popUpfunc(){ //New
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
-}
+// function popUpfunc(){ //New
+//   var popup = document.getElementById("myPopup");
+//   popup.classList.toggle("show");
+// }
 
 
 class App extends Component {
@@ -46,14 +46,12 @@ class App extends Component {
       mode: 'cors',
       cache: 'default'
     };
-  // FETCH!!!!
+   // FETCH!!!!
     fetch(FETCH_URL, myOptions)
     .then(response => response.json())
     .then(json => {
-      if(FETCH_URL = null){
-        popUpfunc();
-      }
-      else{
+
+
       const artist = json.artists.items[0];        
       this.setState({ artist });
       
@@ -64,7 +62,7 @@ class App extends Component {
         const { tracks } = json;
         this.setState({tracks});
       })
-    }
+
     });
 
   }
